@@ -11,9 +11,9 @@ int findtarget(int a[],int s){
     return -1;
 }
 int main(){
-    int arr[3]={9,5,2};
-    int s=sizeof(arr)/sizeof(arr[0]);
-    int Ans=findtarget(arr,s);
+    int a[3]={9,5,2};
+    int s=sizeof(a)/sizeof(a[0]);
+    int Ans=findtarget(a,s);
     cout<<"targrt found at index....."<<Ans<<endl;
     return 0;
 }
